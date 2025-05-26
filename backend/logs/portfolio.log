@@ -1,0 +1,462 @@
+INFO 2025-05-07 14:09:17,734 models 194467 140045754884352 Saving service category: Web Development
+INFO 2025-05-07 14:13:18,869 models 196769 139835607458048 Saving service category: Web Development
+INFO 2025-05-07 14:24:01,292 models 202393 139869046526208 Saving service category: Web Development
+INFO 2025-05-07 14:24:55,239 models 202968 140440701591808 Saving service category: Web Development
+INFO 2025-05-07 14:24:55,301 models 202968 140440701591808 Saving service: Responsive Web Design
+INFO 2025-05-07 14:38:42,380 autoreload 210122 139968375013632 Watching for file changes with StatReloader
+INFO 2025-05-14 16:55:13,559 autoreload 4051 139687321387264 Watching for file changes with StatReloader
+INFO 2025-05-14 16:57:37,853 autoreload 5509 140464169304320 Watching for file changes with StatReloader
+INFO 2025-05-14 17:22:48,925 autoreload 22582 140679289942272 Watching for file changes with StatReloader
+WARNING 2025-05-14 17:22:58,276 log 22582 140679201257152 Not Found: /
+WARNING 2025-05-14 17:22:58,277 basehttp 22582 140679201257152 "GET / HTTP/1.1" 404 2534
+ERROR 2025-05-14 17:22:58,287 basehttp 22582 140679201257152 "GET / HTTP/1.1" 500 0
+WARNING 2025-05-14 17:22:58,744 log 22582 140679201257152 Not Found: /favicon.ico
+INFO 2025-05-14 17:23:08,085 basehttp 22582 140679191815872 "GET /api/services HTTP/1.1" 301 0
+ERROR 2025-05-14 17:23:08,086 basehttp 22582 140679191815872 "GET /api/services HTTP/1.1" 500 0
+ERROR 2025-05-14 17:23:08,174 log 22582 140679183423168 Internal Server Error: /api/services/
+Traceback (most recent call last):
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/memcached.py", line 75, in get
+    return self._cache.get(key, default)
+           ^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/memcached.py", line 40, in _cache
+    return self._class(self.client_servers, **self._options)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HashClient.__init__() got an unexpected keyword argument 'server_max_value_length'
+ERROR 2025-05-14 17:23:08,181 basehttp 22582 140679183423168 "GET /api/services/ HTTP/1.1" 500 126734
+ERROR 2025-05-14 17:23:08,182 basehttp 22582 140679183423168 "GET /api/services/ HTTP/1.1" 500 0
+INFO 2025-05-14 17:23:30,231 basehttp 22582 140679191815872 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-05-14 17:23:30,237 basehttp 22582 140679191815872 "GET /admin/ HTTP/1.1" 500 0
+INFO 2025-05-14 17:23:30,296 basehttp 22582 140679191815872 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+ERROR 2025-05-14 17:23:30,297 basehttp 22582 140679191815872 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 0
+INFO 2025-05-14 17:23:30,415 basehttp 22582 140679201257152 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-05-14 17:23:30,425 basehttp 22582 140678969423552 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-05-14 17:23:30,433 basehttp 22582 140679201257152 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-05-14 17:23:30,435 basehttp 22582 140678961030848 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-05-14 17:23:30,435 basehttp 22582 140679191815872 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-05-14 17:23:30,435 basehttp 22582 140678944245440 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-05-14 17:23:30,437 basehttp 22582 140678952638144 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+ERROR 2025-05-14 17:23:48,534 log 22582 140679191815872 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/admin/sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+           ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/auth/views.py", line 109, in form_valid
+    auth_login(self.request, form.get_user())
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/auth/__init__.py", line 118, in login
+    request.session.cycle_key()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/sessions/backends/base.py", line 304, in cycle_key
+    self.create()
+    ~~~~~~~~~~~^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/sessions/backends/db.py", line 50, in create
+    self._session_key = self._get_new_session_key()
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/sessions/backends/base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/contrib/sessions/backends/cached_db.py", line 49, in exists
+    and (self.cache_key_prefix + session_key) in self._cache
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/base.py", line 299, in __contains__
+    return self.has_key(key)
+           ~~~~~~~~~~~~^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/base.py", line 252, in has_key
+    self.get(key, self._missing_key, version=version) is not self._missing_key
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/memcached.py", line 75, in get
+    return self._cache.get(key, default)
+           ^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/memcached.py", line 40, in _cache
+    return self._class(self.client_servers, **self._options)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: HashClient.__init__() got an unexpected keyword argument 'server_max_value_length'
+ERROR 2025-05-14 17:23:48,537 basehttp 22582 140679191815872 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 185707
+ERROR 2025-05-14 17:23:48,540 basehttp 22582 140679191815872 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 0
+INFO 2025-05-14 17:25:38,457 basehttp 22582 140678961030848 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+ERROR 2025-05-14 17:25:38,462 basehttp 22582 140678961030848 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 0
+INFO 2025-05-14 17:28:15,058 autoreload 22582 140679289942272 /home/kali/Desktop/ITMANO/backend/portfolio_project/settings.py changed, reloading.
+INFO 2025-05-14 17:28:15,691 autoreload 25758 140020837441792 Watching for file changes with StatReloader
+ERROR 2025-05-14 17:28:18,766 log 25758 140020749170368 Internal Server Error: /api/services/
+Traceback (most recent call last):
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/memcached.py", line 75, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/hash.py", line 347, in get
+    return self._run_cmd("get", key, default, default=default, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/hash.py", line 322, in _run_cmd
+    return self._safely_run_func(client, func, default_val, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/hash.py", line 211, in _safely_run_func
+    result = func(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/base.py", line 687, in get
+    return self._fetch_cmd(b"get", [key], False, key_prefix=self.key_prefix).get(
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/base.py", line 1133, in _fetch_cmd
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/base.py", line 424, in _connect
+    sock.connect(sockaddr)
+    ~~~~~~~~~~~~^^^^^^^^^^
+ConnectionRefusedError: [Errno 111] Connection refused
+ERROR 2025-05-14 17:28:18,772 basehttp 25758 140020749170368 "GET /api/services/ HTTP/1.1" 500 147500
+INFO 2025-05-14 17:29:15,833 autoreload 26366 139679830987008 Watching for file changes with StatReloader
+ERROR 2025-05-14 17:29:19,926 log 26366 139679742654144 Internal Server Error: /api/services/
+Traceback (most recent call last):
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/rest_framework/throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/django/core/cache/backends/memcached.py", line 75, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/hash.py", line 347, in get
+    return self._run_cmd("get", key, default, default=default, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/hash.py", line 322, in _run_cmd
+    return self._safely_run_func(client, func, default_val, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/hash.py", line 211, in _safely_run_func
+    result = func(*args, **kwargs)
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/base.py", line 687, in get
+    return self._fetch_cmd(b"get", [key], False, key_prefix=self.key_prefix).get(
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/base.py", line 1133, in _fetch_cmd
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "/home/kali/.cache/pypoetry/virtualenvs/backend-SEw9VDyR-py3.13/lib/python3.13/site-packages/pymemcache/client/base.py", line 424, in _connect
+    sock.connect(sockaddr)
+    ~~~~~~~~~~~~^^^^^^^^^^
+ConnectionRefusedError: [Errno 111] Connection refused
+ERROR 2025-05-14 17:29:19,928 basehttp 26366 139679742654144 "GET /api/services/ HTTP/1.1" 500 147500
+INFO 2025-05-14 17:30:18,279 autoreload 26366 139679830987008 /home/kali/Desktop/ITMANO/backend/portfolio_project/settings.py changed, reloading.
+INFO 2025-05-14 17:30:18,546 autoreload 26938 140308373905664 Watching for file changes with StatReloader
+INFO 2025-05-14 17:30:21,035 basehttp 26938 140308286371520 "GET /api/services/ HTTP/1.1" 200 5844
+INFO 2025-05-14 17:30:21,117 basehttp 26938 140308276930240 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-05-14 17:30:21,118 basehttp 26938 140308049290944 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-05-14 17:30:21,118 basehttp 26938 140308268537536 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-05-14 17:30:21,118 basehttp 26938 140308286371520 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-05-14 17:30:21,123 basehttp 26938 140308049290944 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-05-14 17:30:21,123 basehttp 26938 140308276930240 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-05-14 17:30:21,124 basehttp 26938 140308040898240 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-05-14 17:30:21,124 basehttp 26938 140308058732224 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-05-14 17:30:21,125 basehttp 26938 140308268537536 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-05-14 17:30:21,125 basehttp 26938 140308040898240 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-05-14 17:30:21,126 basehttp 26938 140308286371520 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-05-14 17:30:21,177 basehttp 26938 140308058732224 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-05-19 02:22:48,532 autoreload 4327 140126653145344 Watching for file changes with StatReloader
+INFO 2025-05-19 02:23:14,792 autoreload 4687 139930438451456 Watching for file changes with StatReloader
+WARNING 2025-05-19 02:23:31,448 log 4687 139930351269568 Not Found: /
+WARNING 2025-05-19 02:23:31,450 basehttp 4687 139930351269568 "GET / HTTP/1.1" 404 2534
+INFO 2025-05-19 02:23:36,561 basehttp 4687 139930351269568 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-19 02:23:36,622 basehttp 4687 139930351269568 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-05-19 02:23:36,736 basehttp 4687 139930351269568 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-05-19 02:23:36,737 basehttp 4687 139930351269568 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-05-19 02:23:36,736 basehttp 4687 139930340779712 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-05-19 02:23:36,737 basehttp 4687 139930332387008 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-05-19 02:23:36,739 basehttp 4687 139930315601600 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-05-19 02:23:36,737 basehttp 4687 139930323994304 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-05-19 02:23:36,741 basehttp 4687 139929967392448 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-05-19 02:23:41,637 basehttp 4687 139930351269568 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-19 02:23:41,677 basehttp 4687 139930351269568 "GET /admin/ HTTP/1.1" 200 5555
+INFO 2025-05-19 02:23:41,777 basehttp 4687 139930340779712 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-05-19 02:23:41,793 basehttp 4687 139930340779712 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-19 02:23:41,794 basehttp 4687 139930332387008 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-19 02:26:55,288 basehttp 4687 139930351269568 "GET /admin/ HTTP/1.1" 200 5555
+INFO 2025-05-19 06:17:07,558 basehttp 4687 139930323994304 "GET /admin/ HTTP/1.1" 200 5555
+INFO 2025-05-19 06:17:15,358 basehttp 4687 139930323994304 "GET /api/services HTTP/1.1" 301 0
+INFO 2025-05-19 06:17:15,607 basehttp 4687 139930315601600 "GET /api/services/ HTTP/1.1" 200 5877
+INFO 2025-05-19 06:17:15,718 basehttp 4687 139930323994304 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,718 basehttp 4687 139930315601600 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,719 basehttp 4687 139930351269568 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,719 basehttp 4687 139930332387008 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,719 basehttp 4687 139930340779712 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,732 basehttp 4687 139930351269568 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,734 basehttp 4687 139930315601600 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,734 basehttp 4687 139929967392448 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,740 basehttp 4687 139930323994304 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-05-19 06:17:15,740 basehttp 4687 139930332387008 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,740 basehttp 4687 139930340779712 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-05-19 06:17:15,775 basehttp 4687 139929967392448 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-05-19 06:34:14,914 models 34003 139725958492416 Saving service category: Development
+INFO 2025-05-19 06:34:14,923 models 34003 139725958492416 Saving service category: Digital Marketing
+INFO 2025-05-19 06:34:14,926 models 34003 139725958492416 Saving service category: Automation
+INFO 2025-05-19 06:34:14,930 models 34003 139725958492416 Saving service: Web Development
+INFO 2025-05-19 06:34:14,939 models 34003 139725958492416 Saving service: App Development
+INFO 2025-05-19 06:34:14,941 models 34003 139725958492416 Saving service: Social Media Management
+INFO 2025-05-19 06:34:14,943 models 34003 139725958492416 Saving service: Automations
+INFO 2025-05-19 06:37:32,970 autoreload 35686 139766980186368 Watching for file changes with StatReloader
+INFO 2025-05-19 06:37:36,657 basehttp 35686 139766825744064 "GET /api/services/ HTTP/1.1" 200 10884
+INFO 2025-05-19 06:57:00,516 autoreload 4039 140290487939328 Watching for file changes with StatReloader
+INFO 2025-05-19 06:57:18,853 autoreload 4459 140134384013568 Watching for file changes with StatReloader
+INFO 2025-05-19 06:58:26,240 basehttp 4459 140133894444736 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 06:58:26,572 basehttp 4459 140133894444736 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 06:59:22,972 basehttp 4459 140133894444736 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 07:04:17,605 basehttp 4459 140133894444736 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 07:27:58,707 autoreload 10244 140222170198272 Watching for file changes with StatReloader
+INFO 2025-05-19 09:04:49,548 autoreload 7265 140202312835328 Watching for file changes with StatReloader
+INFO 2025-05-19 09:04:56,788 basehttp 7265 140202156750528 "GET /api/services/ HTTP/1.1" 200 10884
+INFO 2025-05-19 09:06:37,291 basehttp 7265 140202147309248 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 09:07:39,650 basehttp 7265 140202147309248 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 09:07:39,668 basehttp 7265 140202147309248 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 09:31:09,388 basehttp 7265 140202156750528 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 09:31:09,418 basehttp 7265 140202156750528 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 11:08:28,405 basehttp 7265 140202156750528 "GET /admin/ HTTP/1.1" 200 6695
+INFO 2025-05-19 11:08:28,486 basehttp 7265 140202156750528 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-19 11:08:28,489 basehttp 7265 140202138916544 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-05-19 11:08:28,523 log 7265 140202138916544 Not Found: /favicon.ico
+INFO 2025-05-19 11:08:33,440 basehttp 7265 140202156750528 "GET /admin/services/servicecategory/ HTTP/1.1" 200 11105
+INFO 2025-05-19 11:08:33,493 basehttp 7265 140202147309248 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-19 11:08:33,503 basehttp 7265 140202138916544 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-19 11:08:33,502 basehttp 7265 140202156750528 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-05-19 11:08:33,501 basehttp 7265 140202118284992 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-05-19 11:08:33,506 basehttp 7265 140202109892288 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-05-19 11:08:33,510 basehttp 7265 140202126677696 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:08:33,518 basehttp 7265 140202126677696 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-05-19 11:08:33,519 basehttp 7265 140202156750528 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-19 11:08:33,519 basehttp 7265 140202109892288 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-19 11:08:33,519 basehttp 7265 140202138916544 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-05-19 11:08:33,526 basehttp 7265 140202118284992 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-05-19 11:08:33,584 basehttp 7265 140202118284992 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-05-19 11:08:33,584 basehttp 7265 140202138916544 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-05-19 11:08:59,310 basehttp 7265 140201749898944 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 11:08:59,357 basehttp 7265 140201758291648 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 11:09:07,091 basehttp 7265 140202138916544 "GET /admin/services/service/ HTTP/1.1" 200 13323
+INFO 2025-05-19 11:09:07,145 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:07,157 basehttp 7265 140202118284992 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-19 11:09:07,167 basehttp 7265 140202156750528 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-05-19 11:09:07,168 basehttp 7265 140202138916544 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-05-19 11:09:18,319 basehttp 7265 140202138916544 "GET /admin/services/servicecategory/ HTTP/1.1" 200 11105
+INFO 2025-05-19 11:09:18,387 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:20,404 basehttp 7265 140202138916544 "GET /admin/services/service/ HTTP/1.1" 200 13323
+INFO 2025-05-19 11:09:20,466 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:21,515 basehttp 7265 140202138916544 "GET /admin/services/service/3/change/ HTTP/1.1" 200 15272
+INFO 2025-05-19 11:09:21,567 basehttp 7265 140202138916544 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2025-05-19 11:09:21,573 basehttp 7265 140202156750528 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-19 11:09:21,573 basehttp 7265 140202138916544 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-19 11:09:21,587 basehttp 7265 140202118284992 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:21,591 basehttp 7265 140202156750528 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-19 11:09:21,601 basehttp 7265 140202118284992 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+INFO 2025-05-19 11:09:29,532 basehttp 7265 140202138916544 "GET /admin/services/servicecategory/ HTTP/1.1" 200 11105
+INFO 2025-05-19 11:09:29,581 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:33,067 basehttp 7265 140201741506240 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-19 11:09:33,464 basehttp 7265 140202138916544 "GET /admin/services/service/ HTTP/1.1" 200 13323
+INFO 2025-05-19 11:09:33,576 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:45,364 basehttp 7265 140202138916544 "GET /admin/auth/user/ HTTP/1.1" 200 11303
+INFO 2025-05-19 11:09:45,429 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:46,970 basehttp 7265 140202138916544 "GET /admin/services/service/ HTTP/1.1" 200 13323
+INFO 2025-05-19 11:09:47,038 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:09:48,657 basehttp 7265 140202138916544 "GET /admin/services/servicecategory/ HTTP/1.1" 200 11105
+INFO 2025-05-19 11:09:48,727 basehttp 7265 140202138916544 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-19 11:44:45,997 basehttp 7265 140202138916544 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 11:47:42,457 basehttp 7265 140201741506240 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 11:49:36,752 basehttp 7265 140201741506240 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 14:40:56,359 autoreload 25611 139954356166912 Watching for file changes with StatReloader
+INFO 2025-05-19 14:41:09,926 basehttp 25611 139954193692352 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 14:42:16,316 basehttp 25611 139954193692352 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 14:46:40,701 autoreload 29100 139961189818624 Watching for file changes with StatReloader
+INFO 2025-05-19 14:46:45,186 basehttp 29100 139961101809344 "GET /api/services/ HTTP/1.1" 200 3646
+INFO 2025-05-19 14:49:58,485 models 30920 140170347831552 Saving service category: Development
+INFO 2025-05-19 14:49:58,488 models 30920 140170347831552 Saving service category: Digital Marketing
+INFO 2025-05-19 14:49:58,490 models 30920 140170347831552 Saving service category: Automation
+INFO 2025-05-19 14:49:58,493 models 30920 140170347831552 Saving service: Web Development
+INFO 2025-05-19 14:49:58,498 models 30920 140170347831552 Saving service: App Development
+INFO 2025-05-19 14:49:58,500 models 30920 140170347831552 Saving service: Social Media Management
+INFO 2025-05-19 14:49:58,504 models 30920 140170347831552 Saving service: Automations
+INFO 2025-05-19 14:50:03,795 autoreload 30998 139858061410560 Watching for file changes with StatReloader
+INFO 2025-05-19 14:50:07,698 basehttp 30998 139857974359744 "GET /api/services/ HTTP/1.1" 200 2578
+INFO 2025-05-19 14:51:38,493 models 31876 140257658872064 Saving service: Web Development from the test
+INFO 2025-05-19 14:51:43,602 autoreload 31946 140091691200768 Watching for file changes with StatReloader
+INFO 2025-05-19 14:51:46,788 basehttp 31946 140091603384000 "GET /api/services/ HTTP/1.1" 200 3262
+INFO 2025-05-19 14:52:03,504 models 32245 140164292059392 Saving service category: Development
+INFO 2025-05-19 14:52:03,507 models 32245 140164292059392 Saving service category: Digital Marketing
+INFO 2025-05-19 14:52:03,509 models 32245 140164292059392 Saving service category: Automation
+INFO 2025-05-19 14:52:03,512 models 32245 140164292059392 Saving service: Web Development from the test
+INFO 2025-05-19 14:52:03,515 models 32245 140164292059392 Saving service: App Development
+INFO 2025-05-19 14:52:03,518 models 32245 140164292059392 Saving service: Social Media Management
+INFO 2025-05-19 14:52:03,521 models 32245 140164292059392 Saving service: Automations
+INFO 2025-05-19 14:52:05,992 autoreload 32288 139936202100992 Watching for file changes with StatReloader
+INFO 2025-05-19 14:52:09,220 basehttp 32288 139936114243264 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 14:54:44,255 autoreload 33756 140657191366912 Watching for file changes with StatReloader
+INFO 2025-05-19 14:54:49,549 basehttp 33756 140657104615104 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 14:55:41,634 basehttp 33756 140657104615104 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 14:58:37,366 basehttp 33756 140657104615104 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 14:59:07,907 basehttp 33756 140657104615104 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 14:59:07,934 basehttp 33756 140657024825024 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 15:00:26,379 basehttp 33756 140657104615104 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 15:02:43,969 basehttp 33756 140657104615104 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 15:12:34,348 autoreload 33756 140657191366912 /home/kali/Desktop/ITMANO/backend/services/models.py changed, reloading.
+INFO 2025-05-19 15:12:34,671 autoreload 43630 139961953984768 Watching for file changes with StatReloader
+INFO 2025-05-19 15:18:25,624 autoreload 46744 140302120083712 Watching for file changes with StatReloader
+INFO 2025-05-19 15:18:31,760 basehttp 46744 140302031615680 "GET /api/services/ HTTP/1.1" 200 2606
+INFO 2025-05-19 15:18:57,287 models 47190 139921096507648 Saving service category: Development
+INFO 2025-05-19 15:18:57,290 models 47190 139921096507648 Saving service category: Digital Marketing
+INFO 2025-05-19 15:18:57,293 models 47190 139921096507648 Saving service category: Automation
+INFO 2025-05-19 15:18:57,296 models 47190 139921096507648 Saving service: Web Development
+INFO 2025-05-19 15:18:57,302 models 47190 139921096507648 Saving service: App Development
+INFO 2025-05-19 15:18:57,304 models 47190 139921096507648 Saving service: Social Media Management
+INFO 2025-05-19 15:18:57,307 models 47190 139921096507648 Saving service: Automations
+INFO 2025-05-19 15:19:00,951 autoreload 47228 139985548521728 Watching for file changes with StatReloader
+INFO 2025-05-19 15:19:04,625 basehttp 47228 139985460229824 "GET /api/services/ HTTP/1.1" 200 2578
+INFO 2025-05-19 15:19:29,559 basehttp 47228 139985460229824 "GET /api/services/ HTTP/1.1" 200 2578
+INFO 2025-05-19 15:27:48,685 autoreload 51889 140075010433280 Watching for file changes with StatReloader
+INFO 2025-05-19 15:27:53,352 basehttp 51889 140074855429824 "GET /api/services/ HTTP/1.1" 200 2642
+INFO 2025-05-19 15:29:19,968 models 52826 139660037390592 Saving service category: Development
+INFO 2025-05-19 15:29:19,971 models 52826 139660037390592 Saving service category: Digital Marketing
+INFO 2025-05-19 15:29:19,973 models 52826 139660037390592 Saving service category: Automation
+INFO 2025-05-19 15:29:19,976 models 52826 139660037390592 Saving service: Web Development
+INFO 2025-05-19 15:29:19,983 models 52826 139660037390592 Saving service: App Development
+INFO 2025-05-19 15:29:19,985 models 52826 139660037390592 Saving service: Social Media Management
+INFO 2025-05-19 15:29:19,987 models 52826 139660037390592 Saving service: Automations
+INFO 2025-05-19 15:29:23,137 autoreload 52868 139740166246656 Watching for file changes with StatReloader
+INFO 2025-05-19 15:29:27,295 basehttp 52868 139740078765760 "GET /api/services/ HTTP/1.1" 200 2642
+INFO 2025-05-19 15:32:30,173 autoreload 52868 139740166246656 /home/kali/Desktop/ITMANO/backend/services/models.py changed, reloading.
+INFO 2025-05-19 15:32:30,612 autoreload 54540 139726239596800 Watching for file changes with StatReloader
+INFO 2025-05-19 15:32:36,808 basehttp 54540 139726151579328 "GET /api/services/ HTTP/1.1" 200 2642
+INFO 2025-05-19 15:33:11,401 autoreload 54540 139726239596800 /home/kali/Desktop/ITMANO/backend/services/models.py changed, reloading.
+INFO 2025-05-19 15:33:11,814 autoreload 54976 140405195559168 Watching for file changes with StatReloader
+INFO 2025-05-19 15:35:14,074 autoreload 56253 140359946268928 Watching for file changes with StatReloader
+INFO 2025-05-19 15:37:11,272 basehttp 56253 140359858484928 "GET /api/services/ HTTP/1.1" 200 2634
+INFO 2025-05-20 00:36:46,310 autoreload 4531 139933930242304 Watching for file changes with StatReloader
+INFO 2025-05-20 00:37:02,995 autoreload 4941 140545175466240 Watching for file changes with StatReloader
+INFO 2025-05-20 00:37:19,108 basehttp 4941 140545020131008 "GET /admin/services/ HTTP/1.1" 302 0
+INFO 2025-05-20 00:37:19,151 basehttp 4941 140545020131008 "GET /admin/login/?next=/admin/services/ HTTP/1.1" 200 4199
+INFO 2025-05-20 00:37:21,363 basehttp 4941 140545020131008 "POST /admin/login/?next=/admin/services/ HTTP/1.1" 200 4359
+WARNING 2025-05-20 00:37:28,275 log 4941 140545020131008 Not Found: /services
+WARNING 2025-05-20 00:37:28,275 basehttp 4941 140545020131008 "GET /services HTTP/1.1" 404 2576
+INFO 2025-05-20 00:37:33,065 basehttp 4941 140545020131008 "GET /api/services HTTP/1.1" 301 0
+INFO 2025-05-20 00:37:33,117 basehttp 4941 140545010689728 "GET /api/services/ HTTP/1.1" 200 9935
+INFO 2025-05-20 06:40:19,561 models 80872 140313869377792 Saving service category: Development
+INFO 2025-05-20 06:40:19,564 models 80872 140313869377792 Saving service category: Digital Marketing
+INFO 2025-05-20 06:40:19,566 models 80872 140313869377792 Saving service category: Automation
+INFO 2025-05-20 06:40:19,570 models 80872 140313869377792 Saving service: Web Development
+INFO 2025-05-20 06:40:19,574 models 80872 140313869377792 Saving service: App Development
+INFO 2025-05-20 06:40:19,576 models 80872 140313869377792 Saving service: Social Media Management
+INFO 2025-05-20 06:40:19,578 models 80872 140313869377792 Saving service: Automations
+INFO 2025-05-20 06:40:30,916 autoreload 81092 140305162424576 Watching for file changes with StatReloader
+INFO 2025-05-20 06:40:33,912 basehttp 81092 140305074583232 "GET /api/services/ HTTP/1.1" 200 11016
+INFO 2025-05-20 06:41:40,174 basehttp 81092 140305064093376 "GET /api/services/ HTTP/1.1" 200 3204
+INFO 2025-05-20 06:43:29,250 basehttp 81092 140305064093376 "GET /api/services/ HTTP/1.1" 200 3204
+INFO 2025-05-20 06:43:29,280 basehttp 81092 140305064093376 "GET /api/services/ HTTP/1.1" 200 3204
+INFO 2025-05-20 06:49:32,304 basehttp 81092 140305074583232 "GET /api/services/ HTTP/1.1" 200 3204
+INFO 2025-05-20 06:49:32,328 basehttp 81092 140305055700672 "GET /api/services/ HTTP/1.1" 200 3204
+INFO 2025-05-20 07:09:46,286 basehttp 81092 140305074583232 "GET /api/services/ HTTP/1.1" 200 3204
+INFO 2025-05-20 07:09:46,319 basehttp 81092 140305055700672 "GET /api/services/ HTTP/1.1" 200 3204
