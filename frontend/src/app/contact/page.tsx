@@ -177,7 +177,7 @@ export default function ContactPage() {
                             id="name"
                             value={formData.name}
                             onChange={handleChange}
-                            className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3"
+                            className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3 text-gray-700"
                             placeholder="John Doe"
                             required
                           />
@@ -198,7 +198,7 @@ export default function ContactPage() {
                             id="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3"
+                            className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3 text-gray-700"
                             placeholder="you@example.com"
                             required
                           />
@@ -219,7 +219,7 @@ export default function ContactPage() {
                             id="phone"
                             value={formData.phone}
                             onChange={handleChange}
-                            className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3"
+                            className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3 text-gray-700"
                             placeholder="+1 (555) 123-4567"
                           />
                         </div>
@@ -235,7 +235,7 @@ export default function ContactPage() {
                             name="subject"
                             value={formData.subject}
                             onChange={handleChange}
-                            className="block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3"
+                            className="block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm py-3 text-gray-700"
                             required
                           >
                             <option value="">Select a subject</option>
@@ -263,7 +263,7 @@ export default function ContactPage() {
                           rows={5}
                           value={formData.message}
                           onChange={handleChange}
-                          className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                          className="pl-10 block w-full shadow-sm rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-700"
                           placeholder="How can we help you?"
                           required
                         />
