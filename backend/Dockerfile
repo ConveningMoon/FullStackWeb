@@ -1,26 +1,39 @@
-FROM python:3.9-slim
+# Use official Python image as base
+FROM python:3.11-slim
 
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# Set work directory
 WORKDIR /app
 
-# Install Poetry
-RUN pip install poetry==1.4.2
+# Install system dependencies
+RUN apt-get update && apt-get install -y curl build-essential libpq-dev && rm -rf /var/lib/apt/lists/*
 
-# Copy poetry configuration files
-COPY pyproject.toml poetry.lock* ./
+# Install poetry
+RUN curl -sSL https://install.python-poetry.org | python3 -
 
-# Configure poetry to not use a virtual environment
-RUN poetry config virtualenvs.create false
+ENV PATH="/root/.local/bin:$PATH"
+
+# Copy poetry files
+COPY backend/pyproject.toml backend/poetry.lock /app/
 
 # Install dependencies
-RUN poetry install --no-dev
+RUN poetry config virtualenvs.create false \
+    && poetry install --no-interaction --no-ansi --no-root
 
-# Copy project files
-COPY . .
+# Copy project
+COPY backend /app/backend
 
-# Collect static files
-RUN python manage.py collectstatic --noinput
+# Copy .env file
+COPY backend/portfolio_project/.env /app/backend/portfolio_project/.env
 
+# Set working directory to backend
+WORKDIR /app/backend
+
+# Expose port 8000
 EXPOSE 8000
 
-# Start gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "portfolio_project.wsgi:application"]
+# Run Django development server
+CMD ["poetry", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]

@@ -31,8 +31,9 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool('DEBUG', default=False)
 
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['localhost', '127.0.0.1'])
-
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['localhost', '127.0.0.1', '0.0.0.0', 'backend', 'backend:8000'])
+import os
+print("DEBUG: ALLOWED_HOSTS =", ALLOWED_HOSTS)
 
 # Application definition
 
@@ -100,7 +101,7 @@ DATABASES = {
         'NAME': env('DB_NAME', default='portfolio_db'),
         'USER': env('DB_USER', default='postgres'),
         'PASSWORD': env('DB_PASSWORD', default='postgres'),
-        'HOST': env('DB_HOST', default='localhost'),
+        'HOST': env('DB_HOST', default='db'),
         'PORT': env('DB_PORT', default='5432'),
         "TEST": {
             "NAME": "mydatabase_test",  # Name of existing test database
@@ -185,8 +186,14 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS', default=[
     'http://localhost:3000',
     'http://127.0.0.1:8000',
+    'http://127.0.0.1:3000',
+    'http://0.0.0.0:8000',
+    'http://0.0.0.0:3000',
+    'http://frontend:3000',
+    'http://backend:8000',
 ])
 CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Add to portfolio_project/settings.py
 CELERY_BROKER_URL = env('REDIS_URL', default='redis://localhost:6379/0')
@@ -217,7 +224,6 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
-        'rest_framework.permissions.IsAuthenticated',
     ],
     'DEFAULT_THROTTLE_CLASSES': [
         'rest_framework.throttling.AnonRateThrottle',

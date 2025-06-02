@@ -1,0 +1,59 @@
+services:
+  db:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=portfolio_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    volumes:
+      - ./backend:/app/backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=django-insecure-_74p56%qqmuw@vf^pvvf#6o+0+_knza@c!bjd_-%_e2v7e#4x9
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=portfolio_db
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+    networks:
+      - app-network
+    depends_on:
+      - db
+    command: >
+      sh -c "poetry run python manage.py migrate &&
+             poetry run python manage.py runserver 0.0.0.0:8000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8000 # Pass API URL to Next.js build process
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000 # Also ensure it’s available at runtime
+
+volumes:
+  postgres_data:
+
+networks:
+  app-network:
+    driver: bridge

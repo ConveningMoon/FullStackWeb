@@ -221,12 +221,16 @@ const ServicesPage: React.FC = () => {
       description: "We carefully deploy your solution and provide training to ensure a smooth transition."
     }
   ];
+  const API_URL = process.env.NEXT_PUBLIC_API_URL;
+  console.log("THis is the api_URL", API_URL);
 
   useEffect(() => {
     // Fetch services from the Django API
     const fetchServices = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:8000/api/services/');
+        // const response = await fetch('http://127.0.0.1:8000/api/services/');
+        const response = await fetch(`${API_URL}/api/services/`);
+        // const response = await fetch(`http://backend:8000/api/services/`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -237,7 +241,7 @@ const ServicesPage: React.FC = () => {
           setServices(data);
         } else if (data.results && Array.isArray(data.results)) {
           // Handle paginated responses
-          console.log(data.results);
+          console.log("This is the services content", data.results);
           setServices(data.results);
         } else {
           console.error('Unexpected API response structure:', data);
