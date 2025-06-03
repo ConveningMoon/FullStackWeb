@@ -111,18 +111,6 @@ DATABASES = {
     }
 }
 
-# Cache configuration using Memcached
-# CACHES = {
-#     'default': {
-#         'BACKEND': 'django.core.cache.backends.memcached.PyMemcacheCache',
-#         'LOCATION': env('MEMCACHED_URL', default='127.0.0.1:11211'),
-#         'TIMEOUT': 300,  # 5 minutes default timeout
-#         'OPTIONS': {
-#             # 'server_max_value_length': 1024 * 1024 * 4, 
-#         }
-#     }
-# }
-# portfolio_project/settings.py
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
@@ -172,9 +160,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
@@ -184,7 +172,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS', default=[
-    'http://localhost:3000',
+    'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://127.0.0.1:3000',
     'http://0.0.0.0:8000',

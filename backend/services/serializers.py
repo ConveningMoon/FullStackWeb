@@ -1,22 +1,13 @@
-# services/serializers.py
 from rest_framework import serializers
-from .models import Service, ServiceCategory
+from .models import Service
 
-class ServiceCategorySerializer(serializers.ModelSerializer):
-    class Meta:
-        model = ServiceCategory
-        fields = ['id', 'name', 'slug', 'description']
-
-
-class ServiceSerializer(serializers.ModelSerializer):
-    category_name = serializers.ReadOnlyField(source='category.name')
-    
+class ServiceSerializer(serializers.ModelSerializer):    
     class Meta:
         model = Service
         fields = [
-            'id', 'title', 'slug', 'category', 'category_name', 
+            'id', 'title', 'slug', 
             'description', 'short_description', 'image', 
-            'is_featured', 'price', 'features', 'created_at'
+            'is_featured', 'features', 'created_at'
         ]
 
 

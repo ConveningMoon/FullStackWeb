@@ -1024,3 +1024,567 @@ INFO 2025-06-02 06:28:53,904 basehttp 19 140083954964160 "GET /static/admin/js/t
 INFO 2025-06-02 06:28:53,924 basehttp 19 140083963356864 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 INFO 2025-06-02 06:28:53,925 basehttp 19 140083938178752 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
 INFO 2025-06-02 06:29:02,186 basehttp 19 140083971749568 "GET /api/services/ HTTP/1.1" 200 363
+INFO 2025-06-03 07:18:04,014 autoreload 18 140340760501120 Watching for file changes with StatReloader
+INFO 2025-06-03 07:18:18,445 basehttp 18 140340606531264 "GET /api/services/ HTTP/1.1" 200 363
+INFO 2025-06-03 07:18:26,349 basehttp 18 140340598138560 "GET /admin/ HTTP/1.1" 200 8019
+INFO 2025-06-03 07:18:26,429 basehttp 18 140340598138560 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-06-03 07:18:26,437 basehttp 18 140340598138560 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-06-03 07:18:26,441 basehttp 18 140340589745856 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-06-03 07:18:26,451 basehttp 18 140340589745856 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-06-03 07:18:26,453 basehttp 18 140340581353152 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-06-03 07:18:26,457 basehttp 18 140340581353152 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-06-03 07:18:26,458 basehttp 18 140340572960448 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-06-03 07:18:26,509 basehttp 18 140340564567744 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-06-03 07:18:26,509 basehttp 18 140340572960448 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-06-03 07:18:26,547 log 18 140340572960448 Not Found: /favicon.ico
+WARNING 2025-06-03 07:18:26,548 basehttp 18 140340572960448 "GET /favicon.ico HTTP/1.1" 404 2585
+INFO 2025-06-03 07:20:59,652 basehttp 18 140340564567744 "GET /api/services/ HTTP/1.1" 200 363
+INFO 2025-06-03 07:21:19,768 basehttp 18 140340564567744 "GET /api/services/ HTTP/1.1" 200 363
+INFO 2025-06-03 07:21:35,731 basehttp 18 140340564567744 "GET /api/services/ HTTP/1.1" 200 363
+INFO 2025-06-03 07:22:54,118 basehttp 18 140340581353152 "GET /admin/services/service/ HTTP/1.1" 200 11913
+INFO 2025-06-03 07:22:54,176 basehttp 18 140340581353152 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-06-03 07:22:54,180 basehttp 18 140340589745856 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-06-03 07:22:54,182 basehttp 18 140340589745856 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-06-03 07:22:54,191 basehttp 18 140340598138560 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-03 07:22:54,199 basehttp 18 140340606531264 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-06-03 07:22:54,203 basehttp 18 140340598138560 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-06-03 07:22:54,206 basehttp 18 140340581353152 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-06-03 07:22:54,213 basehttp 18 140340572960448 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-06-03 07:22:54,211 basehttp 18 140340606531264 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-06-03 07:22:54,214 basehttp 18 140340581353152 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-06-03 07:22:54,215 basehttp 18 140340589745856 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 07:22:54,227 basehttp 18 140340556175040 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-06-03 07:22:54,236 basehttp 18 140340556175040 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-06-03 07:22:54,283 basehttp 18 140340556175040 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-06-03 07:22:54,290 basehttp 18 140340598138560 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-06-03 07:22:55,330 basehttp 18 140340581353152 "GET /admin/services/service/1/change/ HTTP/1.1" 200 15933
+INFO 2025-06-03 07:22:55,404 basehttp 18 140340598138560 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2025-06-03 07:22:55,409 basehttp 18 140340556175040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 07:22:55,413 basehttp 18 140340598138560 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-06-03 07:22:55,425 basehttp 18 140340556175040 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-06-03 07:22:55,429 basehttp 18 140340606531264 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-06-03 07:22:55,451 basehttp 18 140340606531264 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+INFO 2025-06-03 07:24:13,581 basehttp 18 140340581353152 "GET /admin/services/service/ HTTP/1.1" 200 11913
+INFO 2025-06-03 07:24:13,636 basehttp 18 140340556175040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 07:24:14,440 basehttp 18 140340581353152 "GET /admin/services/service/add/ HTTP/1.1" 200 15567
+INFO 2025-06-03 07:24:14,495 basehttp 18 140340556175040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 07:24:59,223 models 18 140340581353152 Saving service: Second Test Service
+INFO 2025-06-03 07:24:59,239 basehttp 18 140340581353152 "POST /admin/services/service/add/ HTTP/1.1" 302 0
+INFO 2025-06-03 07:24:59,263 basehttp 18 140340581353152 "GET /admin/services/service/ HTTP/1.1" 200 12646
+INFO 2025-06-03 07:24:59,309 basehttp 18 140340556175040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 07:24:59,355 basehttp 18 140340556175040 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-06-03 07:25:03,116 basehttp 18 140340598138560 "GET /api/services/ HTTP/1.1" 200 691
+INFO 2025-06-03 08:26:35,141 autoreload 25 140040849144704 Watching for file changes with StatReloader
+ERROR 2025-06-03 08:26:46,805 log 25 140040697018048 Internal Server Error: /api/services/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'category_name' was declared on serializer ServiceSerializer, but has not been included in the 'fields' option.
+ERROR 2025-06-03 08:26:46,813 basehttp 25 140040697018048 "GET /api/services/ HTTP/1.1" 500 140751
+ERROR 2025-06-03 08:27:04,004 log 25 140040697018048 Internal Server Error: /api/services/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'category_name' was declared on serializer ServiceSerializer, but has not been included in the 'fields' option.
+ERROR 2025-06-03 08:27:04,008 basehttp 25 140040697018048 "GET /api/services/ HTTP/1.1" 500 140751
+INFO 2025-06-03 08:27:12,669 basehttp 25 140040688625344 "GET /admin/services/service/ HTTP/1.1" 200 11546
+INFO 2025-06-03 08:27:12,728 basehttp 25 140040680232640 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-03 08:27:12,731 basehttp 25 140040671839936 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-06-03 08:27:12,738 basehttp 25 140040688625344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-06-03 08:27:12,844 log 25 140040671839936 Not Found: /favicon.ico
+WARNING 2025-06-03 08:27:12,845 basehttp 25 140040671839936 "GET /favicon.ico HTTP/1.1" 404 2585
+INFO 2025-06-03 08:27:57,327 autoreload 25 140040849144704 /app/backend/services/serializers.py changed, reloading.
+INFO 2025-06-03 08:27:58,450 autoreload 31 139809056004992 Watching for file changes with StatReloader
+INFO 2025-06-03 08:31:20,593 autoreload 25 140368770583424 Watching for file changes with StatReloader
+INFO 2025-06-03 08:31:28,878 basehttp 25 140368689493696 "GET /api/services/ HTTP/1.1" 200 1470
+INFO 2025-06-03 08:34:02,839 basehttp 25 140368689493696 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13614
+INFO 2025-06-03 08:34:02,925 basehttp 25 140368689493696 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:34:02,935 basehttp 25 140368681100992 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-06-03 08:34:02,940 basehttp 25 140368672708288 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+WARNING 2025-06-03 08:34:06,606 log 25 140368689493696 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 08:34:06,607 basehttp 25 140368689493696 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 08:34:14,909 basehttp 25 140368689493696 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13614
+INFO 2025-06-03 08:39:46,992 autoreload 25 139938743888768 Watching for file changes with StatReloader
+INFO 2025-06-03 08:40:21,861 basehttp 25 139938664281792 "GET /admin/services/service/ HTTP/1.1" 200 11546
+INFO 2025-06-03 08:40:22,014 basehttp 25 139938664281792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:40:27,221 basehttp 25 139938272106176 "GET /api/services/ HTTP/1.1" 200 1470
+INFO 2025-06-03 08:40:37,561 basehttp 25 139938664281792 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13614
+INFO 2025-06-03 08:40:37,646 basehttp 25 139938664281792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:41:21,958 basehttp 25 139938272106176 "GET /api/services/ HTTP/1.1" 200 1470
+WARNING 2025-06-03 08:41:28,019 log 25 139938664281792 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 08:41:28,021 basehttp 25 139938664281792 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 08:41:28,817 basehttp 25 139938664281792 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13614
+WARNING 2025-06-03 08:41:30,263 log 25 139938664281792 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 08:41:30,265 basehttp 25 139938664281792 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 08:41:36,033 basehttp 25 139938664281792 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13614
+WARNING 2025-06-03 08:42:03,462 log 25 139938664281792 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 08:42:03,463 basehttp 25 139938664281792 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 08:42:04,529 basehttp 25 139938664281792 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13614
+INFO 2025-06-03 08:43:17,424 autoreload 25 139794476592000 Watching for file changes with StatReloader
+INFO 2025-06-03 08:43:21,639 basehttp 25 139794397001408 "GET /api/services/ HTTP/1.1" 200 1470
+INFO 2025-06-03 08:43:25,721 basehttp 25 139794388608704 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 08:43:25,763 basehttp 25 139794388608704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-06-03 08:43:27,297 log 25 139794388608704 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 08:43:27,299 basehttp 25 139794388608704 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 08:44:00,193 basehttp 25 139794388608704 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 200 344216
+INFO 2025-06-03 08:44:03,115 basehttp 25 139794397001408 "GET /api/services/ HTTP/1.1" 200 1470
+INFO 2025-06-03 08:44:10,032 basehttp 25 139794388608704 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 08:44:13,725 basehttp 25 139794388608704 "GET /admin/services/service/ HTTP/1.1" 200 11546
+INFO 2025-06-03 08:44:13,798 basehttp 25 139794388608704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:44:21,798 basehttp 25 139794388608704 "POST /admin/services/service/ HTTP/1.1" 200 8694
+INFO 2025-06-03 08:44:21,851 basehttp 25 139794388608704 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-06-03 08:44:23,019 basehttp 25 139794388608704 "POST /admin/services/service/ HTTP/1.1" 302 0
+INFO 2025-06-03 08:44:23,046 basehttp 25 139794388608704 "GET /admin/services/service/ HTTP/1.1" 200 8473
+INFO 2025-06-03 08:44:23,089 basehttp 25 139794388608704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:45:18,503 autoreload 25 139947233344384 Watching for file changes with StatReloader
+INFO 2025-06-03 08:45:22,870 basehttp 25 139947080152768 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 08:45:31,364 basehttp 25 139947071760064 "GET /admin/services/service/ HTTP/1.1" 200 10855
+INFO 2025-06-03 08:45:31,419 basehttp 25 139947071760064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:45:33,166 basehttp 25 139947071760064 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 08:45:33,253 basehttp 25 139947038189248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:45:38,567 basehttp 25 139947071760064 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 08:56:47,284 autoreload 25 140115341732736 Watching for file changes with StatReloader
+INFO 2025-06-03 08:56:52,983 basehttp 25 140115187857088 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 08:57:02,792 basehttp 25 140115179464384 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 08:57:02,860 basehttp 25 140115179464384 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:57:23,403 basehttp 25 140115179464384 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 08:57:49,361 log 25 140115171071680 Not Found: /
+WARNING 2025-06-03 08:57:49,363 basehttp 25 140115171071680 "GET / HTTP/1.1" 404 2534
+WARNING 2025-06-03 08:57:50,097 log 25 140115171071680 Not Found: /favicon.ico
+WARNING 2025-06-03 08:57:50,098 basehttp 25 140115171071680 "GET /favicon.ico HTTP/1.1" 404 2585
+INFO 2025-06-03 08:58:02,276 basehttp 25 140115171071680 "GET /admin/services/service/3/change/ HTTP/1.1" 302 0
+INFO 2025-06-03 08:58:02,314 basehttp 25 140115171071680 "GET /admin/login/?next=/admin/services/service/3/change/ HTTP/1.1" 200 4233
+INFO 2025-06-03 08:58:02,400 basehttp 25 140115171071680 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-06-03 08:58:02,409 basehttp 25 140115162678976 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-06-03 08:58:02,411 basehttp 25 140115171071680 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-06-03 08:58:02,415 basehttp 25 140115154286272 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-06-03 08:58:02,420 basehttp 25 140114650986176 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-06-03 08:58:02,421 basehttp 25 140115145893568 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-06-03 08:58:02,424 basehttp 25 140115137500864 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-06-03 08:58:30,542 basehttp 25 140115171071680 "POST /admin/login/?next=/admin/services/service/3/change/ HTTP/1.1" 200 4394
+INFO 2025-06-03 08:58:35,942 basehttp 25 140115171071680 "POST /admin/login/?next=/admin/services/service/3/change/ HTTP/1.1" 200 4394
+INFO 2025-06-03 08:58:47,450 basehttp 25 140115179464384 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 08:58:47,507 basehttp 25 140115179464384 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:58:51,895 basehttp 25 140115179464384 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 08:58:52,002 basehttp 25 140114617415360 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-06-03 08:58:52,005 basehttp 25 140114609022656 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-06-03 08:58:52,007 basehttp 25 140114634200768 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 08:59:03,239 basehttp 25 140115171071680 "GET /admin/services/service/3/change/ HTTP/1.1" 302 0
+INFO 2025-06-03 08:59:03,248 basehttp 25 140115171071680 "GET /admin/login/?next=/admin/services/service/3/change/ HTTP/1.1" 200 4233
+WARNING 2025-06-03 08:59:30,477 log 25 140115171071680 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 08:59:30,478 basehttp 25 140115171071680 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 08:59:56,622 basehttp 25 140115179464384 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 09:01:52,522 basehttp 25 140115179464384 "GET /admin/login/?next=/admin/services/service/3/change/ HTTP/1.1" 200 4233
+INFO 2025-06-03 09:07:59,191 autoreload 25 140445364390784 Watching for file changes with StatReloader
+INFO 2025-06-03 09:08:58,703 basehttp 25 140445283776192 "GET /api/services/ HTTP/1.1" 200 944
+WARNING 2025-06-03 09:09:08,607 log 25 140445275383488 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:09:08,607 basehttp 25 140445275383488 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:09:18,267 basehttp 25 140445266990784 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 09:09:31,790 log 25 140445266990784 Not Found: /media/images/services/default-service-4.jpg
+WARNING 2025-06-03 09:09:31,793 basehttp 25 140445266990784 "GET /media/images/services/default-service-4.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:10:17,666 log 25 140445257549504 Not Found: /
+WARNING 2025-06-03 09:10:17,668 basehttp 25 140445257549504 "GET / HTTP/1.1" 404 2532
+INFO 2025-06-03 09:10:26,480 basehttp 25 140445257549504 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-03 09:10:26,499 basehttp 25 140445257549504 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-06-03 09:10:26,609 basehttp 25 140444759488192 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-06-03 09:10:26,610 basehttp 25 140445249156800 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-06-03 09:10:26,611 basehttp 25 140445240764096 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-06-03 09:10:26,613 basehttp 25 140445257549504 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-06-03 09:10:26,617 basehttp 25 140444751095488 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-06-03 09:10:26,624 basehttp 25 140444751095488 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-06-03 09:10:26,625 basehttp 25 140445249156800 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-06-03 09:10:35,545 basehttp 25 140445257549504 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 09:11:19,338 basehttp 25 140445257549504 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 09:14:59,600 basehttp 25 140445257549504 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-03 09:14:59,625 basehttp 25 140445257549504 "GET /admin/ HTTP/1.1" 200 6908
+INFO 2025-06-03 09:14:59,665 basehttp 25 140445257549504 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-06-03 09:14:59,722 basehttp 25 140445257549504 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-06-03 09:14:59,724 basehttp 25 140445240764096 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-06-03 09:15:04,836 basehttp 25 140445257549504 "GET /admin/services/service/ HTTP/1.1" 200 10855
+INFO 2025-06-03 09:15:04,888 basehttp 25 140445240764096 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-06-03 09:15:04,902 basehttp 25 140445275383488 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-03 09:15:04,902 basehttp 25 140444759488192 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-06-03 09:15:04,903 basehttp 25 140445249156800 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-06-03 09:15:04,907 basehttp 25 140445275383488 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-06-03 09:15:04,911 basehttp 25 140445257549504 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 09:15:04,915 basehttp 25 140445240764096 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-06-03 09:15:04,917 basehttp 25 140444759488192 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-06-03 09:15:04,919 basehttp 25 140445275383488 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-06-03 09:15:04,921 basehttp 25 140445249156800 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-06-03 09:15:04,923 basehttp 25 140445283776192 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-06-03 09:15:04,927 basehttp 25 140445283776192 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-06-03 09:15:04,981 basehttp 25 140445283776192 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-06-03 09:15:04,983 basehttp 25 140445249156800 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-06-03 09:15:07,047 basehttp 25 140445283776192 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 09:15:07,102 basehttp 25 140445283776192 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2025-06-03 09:15:07,113 basehttp 25 140445275383488 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-06-03 09:15:07,117 basehttp 25 140445240764096 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-06-03 09:15:07,119 basehttp 25 140445249156800 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 09:15:07,140 basehttp 25 140445283776192 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+WARNING 2025-06-03 09:15:08,403 log 25 140445283776192 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:15:08,404 basehttp 25 140445283776192 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:15:20,154 basehttp 25 140445283776192 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 09:17:04,962 basehttp 25 140444759488192 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-03 09:17:04,978 basehttp 25 140444759488192 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-06-03 09:17:05,015 basehttp 25 140444759488192 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-06-03 09:17:05,019 basehttp 25 140445249156800 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-06-03 09:17:05,020 basehttp 25 140445249156800 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-06-03 09:17:05,022 basehttp 25 140445249156800 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-06-03 09:17:05,023 basehttp 25 140445266990784 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-06-03 09:17:05,025 basehttp 25 140445275383488 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-06-03 09:17:05,026 basehttp 25 140445240764096 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-06-03 09:17:52,977 autoreload 25 140445364390784 /app/backend/portfolio_project/settings.py changed, reloading.
+INFO 2025-06-03 09:17:53,998 autoreload 55 140514292194176 Watching for file changes with StatReloader
+INFO 2025-06-03 09:20:41,039 autoreload 25 139848173038464 Watching for file changes with StatReloader
+INFO 2025-06-03 09:20:55,177 basehttp 25 139848023275200 "GET /admin/ HTTP/1.1" 200 6908
+INFO 2025-06-03 09:20:56,711 basehttp 25 139848023275200 "GET /admin/services/service/ HTTP/1.1" 200 10855
+INFO 2025-06-03 09:20:56,798 basehttp 25 139848023275200 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 09:20:58,211 basehttp 25 139848023275200 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 09:20:58,301 basehttp 25 139848014882496 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-06-03 09:20:59,589 log 25 139848023275200 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:20:59,590 basehttp 25 139848023275200 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:21:09,043 basehttp 25 139848023275200 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 09:21:12,713 log 25 139848023275200 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:21:12,714 basehttp 25 139848023275200 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+WARNING 2025-06-03 09:22:05,339 log 25 139848006489792 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:22:05,339 basehttp 25 139848006489792 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:29:58,927 autoreload 24 140675445402496 Watching for file changes with StatReloader
+WARNING 2025-06-03 09:30:05,122 log 24 140675364419264 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:30:05,123 basehttp 24 140675364419264 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:30:07,404 basehttp 24 140675364419264 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 09:30:09,168 basehttp 24 140675364419264 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 09:30:09,236 basehttp 24 140675364419264 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-06-03 09:30:11,151 log 24 140675364419264 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:30:11,153 basehttp 24 140675364419264 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:30:14,846 basehttp 24 140675127432896 "GET /api/services/ HTTP/1.1" 200 944
+WARNING 2025-06-03 09:30:25,531 log 24 140675119040192 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:30:25,532 basehttp 24 140675119040192 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:37:34,442 autoreload 25 140271470209920 Watching for file changes with StatReloader
+WARNING 2025-06-03 09:37:37,766 log 25 140271390029504 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:37:37,767 basehttp 25 140271390029504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:37:40,694 log 25 140271381636800 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:37:40,694 basehttp 25 140271381636800 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:37:43,540 log 25 140271373244096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:37:43,540 basehttp 25 140271373244096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:37:46,876 basehttp 25 140271364851392 "GET /api/services/ HTTP/1.1" 200 944
+WARNING 2025-06-03 09:37:59,507 log 25 140271390029504 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:37:59,507 basehttp 25 140271390029504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:38:00,128 log 25 140271390029504 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:38:00,128 basehttp 25 140271390029504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:39:56,303 log 25 140271390029504 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:39:56,304 basehttp 25 140271390029504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:44:43,163 log 25 140271390029504 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:44:43,164 basehttp 25 140271390029504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:44:45,148 log 25 140271364851392 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:44:45,148 basehttp 25 140271364851392 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:44:46,132 basehttp 25 140271364851392 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 09:44:48,377 log 25 140271364851392 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:44:48,378 basehttp 25 140271364851392 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:44:51,208 basehttp 25 140271364851392 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+INFO 2025-06-03 09:44:51,673 basehttp 25 140271364851392 "GET /admin/services/service/ HTTP/1.1" 200 10855
+INFO 2025-06-03 09:44:52,503 basehttp 25 140271364851392 "GET /admin/ HTTP/1.1" 200 6908
+INFO 2025-06-03 09:44:53,367 basehttp 25 140271364851392 "GET /admin/services/service/ HTTP/1.1" 200 10855
+INFO 2025-06-03 09:44:53,656 basehttp 25 140271364851392 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 09:45:09,825 log 25 140271373244096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:45:09,826 basehttp 25 140271373244096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:45:26,823 log 25 140271390029504 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:45:26,825 basehttp 25 140271390029504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:48:47,421 autoreload 26 140364004707200 Watching for file changes with StatReloader
+WARNING 2025-06-03 09:49:18,831 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:49:18,832 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:49:21,214 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:49:21,215 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:49:22,014 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:49:22,015 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:49:50,821 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:49:50,823 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:49:51,867 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:49:51,867 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:49:53,588 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:49:53,590 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:50:04,712 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:50:04,713 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:50:29,803 basehttp 26 140363906930368 "GET /api/services/ HTTP/1.1" 200 944
+WARNING 2025-06-03 09:50:51,835 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:50:51,836 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:50:53,953 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:50:53,954 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:50:56,299 log 26 140363691980480 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:50:56,299 basehttp 26 140363691980480 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+WARNING 2025-06-03 09:50:59,527 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:50:59,528 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:51:15,896 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:51:15,897 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:51:19,907 basehttp 26 140363691980480 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 09:51:23,326 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:51:23,326 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:51:23,666 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:51:23,669 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:51:24,063 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:51:24,064 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:53:01,800 basehttp 26 140363691980480 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 09:53:57,554 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:53:57,554 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:53:59,921 log 26 140363915323072 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:53:59,922 basehttp 26 140363915323072 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:54:01,986 log 26 140363691980480 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:54:01,986 basehttp 26 140363691980480 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+INFO 2025-06-03 09:54:38,274 basehttp 26 140363906930368 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 09:54:53,967 basehttp 26 140363691980480 "GET /admin/services/service/3/change/ HTTP/1.1" 200 13613
+WARNING 2025-06-03 09:54:57,260 log 26 140363924764352 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:54:57,260 basehttp 26 140363924764352 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:56:03,769 autoreload 25 139923020508032 Watching for file changes with StatReloader
+WARNING 2025-06-03 09:56:09,713 log 25 139922939836096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:09,714 basehttp 25 139922939836096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:56:12,022 log 25 139922931443392 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:12,022 basehttp 25 139922931443392 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:56:12,632 log 25 139922931443392 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:12,633 basehttp 25 139922931443392 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:56:13,820 log 25 139922719635136 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:13,820 basehttp 25 139922719635136 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+WARNING 2025-06-03 09:56:14,356 log 25 139922719635136 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:14,357 basehttp 25 139922719635136 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+WARNING 2025-06-03 09:56:16,461 log 25 139922939836096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:16,461 basehttp 25 139922939836096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:56:16,819 log 25 139922939836096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:16,820 basehttp 25 139922939836096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:56:17,031 log 25 139922939836096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:17,031 basehttp 25 139922939836096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:56:17,246 log 25 139922939836096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:56:17,246 basehttp 25 139922939836096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 09:56:22,300 basehttp 25 139922711242432 "GET /api/services/ HTTP/1.1" 200 944
+WARNING 2025-06-03 09:56:25,649 log 25 139922939836096 Not Found: /
+WARNING 2025-06-03 09:56:25,649 basehttp 25 139922939836096 "GET / HTTP/1.1" 404 2534
+WARNING 2025-06-03 09:56:38,392 log 25 139922939836096 Not Found: /media/images/services/
+WARNING 2025-06-03 09:56:38,393 basehttp 25 139922939836096 "GET /media/images/services/ HTTP/1.1" 404 2802
+WARNING 2025-06-03 09:56:44,907 log 25 139922939836096 Not Found: /media/
+WARNING 2025-06-03 09:56:44,908 basehttp 25 139922939836096 "GET /media/ HTTP/1.1" 404 2738
+WARNING 2025-06-03 09:56:45,005 log 25 139922939836096 Not Found: /favicon.ico
+WARNING 2025-06-03 09:56:45,005 basehttp 25 139922939836096 "GET /favicon.ico HTTP/1.1" 404 2585
+WARNING 2025-06-03 09:57:19,163 log 25 139922939836096 Not Found: /media/
+WARNING 2025-06-03 09:57:19,164 basehttp 25 139922939836096 "GET /media/ HTTP/1.1" 404 2738
+WARNING 2025-06-03 09:57:21,229 log 25 139922939836096 Not Found: /media/images/services/
+WARNING 2025-06-03 09:57:21,230 basehttp 25 139922939836096 "GET /media/images/services/ HTTP/1.1" 404 2802
+WARNING 2025-06-03 09:57:23,078 log 25 139922939836096 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:57:23,079 basehttp 25 139922939836096 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:57:24,855 log 25 139922931443392 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:57:24,856 basehttp 25 139922931443392 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 09:57:26,707 log 25 139922719635136 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:57:26,709 basehttp 25 139922719635136 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+WARNING 2025-06-03 09:57:28,333 log 25 139922931443392 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 09:57:28,333 basehttp 25 139922931443392 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 10:01:44,251 autoreload 25 140642509990784 Watching for file changes with StatReloader
+WARNING 2025-06-03 10:01:51,761 log 25 140642430744256 Not Found: /media/
+WARNING 2025-06-03 10:01:51,767 basehttp 25 140642430744256 "GET /media/ HTTP/1.1" 404 2738
+WARNING 2025-06-03 10:02:03,374 log 25 140642421302976 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 10:02:03,375 basehttp 25 140642421302976 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2885
+WARNING 2025-06-03 10:02:18,467 log 25 140642430744256 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 10:02:18,468 basehttp 25 140642430744256 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+INFO 2025-06-03 10:04:31,715 autoreload 25 140361385081728 Watching for file changes with StatReloader
+INFO 2025-06-03 10:04:35,477 basehttp 25 140361305421504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 200 344216
+INFO 2025-06-03 10:04:38,489 basehttp 25 140361297028800 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 10:04:47,087 basehttp 25 140361305421504 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 304 0
+WARNING 2025-06-03 10:05:16,905 log 25 140361305421504 Not Found: /media/images/services/default-service-1.jpghttp://localhost:8000/media/images/services/default-service-1.jpg
+WARNING 2025-06-03 10:05:16,906 basehttp 25 140361305421504 "GET /media/images/services/default-service-1.jpghttp://localhost:8000/media/images/services/default-service-1.jpg HTTP/1.1" 404 3146
+INFO 2025-06-03 10:13:32,080 autoreload 25 140229946362752 Watching for file changes with StatReloader
+INFO 2025-06-03 10:13:35,567 basehttp 25 140229866419904 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 10:17:06,819 autoreload 25 140628601559936 Watching for file changes with StatReloader
+INFO 2025-06-03 10:17:12,761 basehttp 25 140628522432192 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 10:18:22,431 basehttp 25 140628514039488 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 304 0
+INFO 2025-06-03 10:24:22,852 autoreload 26 139787770235776 Watching for file changes with StatReloader
+INFO 2025-06-03 10:24:31,773 basehttp 26 139787690309312 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 10:29:27,710 autoreload 26 139984544168832 Watching for file changes with StatReloader
+INFO 2025-06-03 10:29:36,862 basehttp 26 139984392681152 "GET /api/services/ HTTP/1.1" 200 944
+INFO 2025-06-03 10:29:37,252 basehttp 26 139984384288448 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 200 344216
+INFO 2025-06-03 10:29:37,262 basehttp 26 139984384288448 "GET /media/images/services/default-service-3.jpg HTTP/1.1" 200 308002
+INFO 2025-06-03 10:29:37,333 basehttp 26 139984384288448 "GET /media/images/services/default-service-2.jpg HTTP/1.1" 200 374034
+INFO 2025-06-03 10:47:56,459 autoreload 200399 140250461217024 Watching for file changes with StatReloader
+INFO 2025-06-03 10:51:19,421 autoreload 25 140659738606464 Watching for file changes with StatReloader
+WARNING 2025-06-03 10:51:39,427 log 25 140659658847936 Not Found: /media/images/services/default-service-1.jpg
+WARNING 2025-06-03 10:51:39,428 basehttp 25 140659658847936 "GET /media/images/services/default-service-1.jpg HTTP/1.1" 404 2887
+WARNING 2025-06-03 10:51:39,495 log 25 140659658847936 Not Found: /favicon.ico
+WARNING 2025-06-03 10:51:39,497 basehttp 25 140659658847936 "GET /favicon.ico HTTP/1.1" 404 2585
+INFO 2025-06-03 10:51:45,255 basehttp 25 140659658847936 "GET /api/services/ HTTP/1.1" 200 3722
+INFO 2025-06-03 10:51:45,496 basehttp 25 140659574961856 "GET /media/images/services/app-development.jpg HTTP/1.1" 200 344216
+INFO 2025-06-03 10:51:45,498 basehttp 25 140659566569152 "GET /media/images/services/automations.jpg HTTP/1.1" 200 308002
+INFO 2025-06-03 10:51:46,801 basehttp 25 140659574961856 "GET /media/images/services/social-media-management.jpg HTTP/1.1" 200 315974
+INFO 2025-06-03 10:51:47,707 basehttp 25 140659574961856 "GET /media/images/services/web-development.jpg HTTP/1.1" 200 374034
+WARNING 2025-06-03 10:52:08,467 log 25 140659558176448 Not Found: /
+WARNING 2025-06-03 10:52:08,468 basehttp 25 140659558176448 "GET / HTTP/1.1" 404 2532
+WARNING 2025-06-03 10:52:08,625 log 25 140659558176448 Not Found: /favicon.ico
+WARNING 2025-06-03 10:52:08,627 basehttp 25 140659558176448 "GET /favicon.ico HTTP/1.1" 404 2583
+INFO 2025-06-03 10:52:15,289 basehttp 25 140659558176448 "GET /admin/ HTTP/1.1" 200 6908
+INFO 2025-06-03 10:52:15,343 basehttp 25 140659558176448 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-06-03 10:52:15,351 basehttp 25 140659541391040 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-06-03 10:52:15,353 basehttp 25 140659549783744 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-06-03 10:52:15,355 basehttp 25 140659532998336 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-06-03 10:52:15,357 basehttp 25 140659558176448 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-06-03 10:52:17,038 basehttp 25 140659549783744 "GET /admin/services/service/ HTTP/1.1" 200 12229
+INFO 2025-06-03 10:52:17,106 basehttp 25 140659549783744 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-06-03 10:52:17,108 basehttp 25 140659541391040 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-03 10:52:17,114 basehttp 25 140659558176448 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-06-03 10:52:17,129 basehttp 25 140659532998336 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-06-03 10:52:17,251 log 25 140659532998336 Not Found: /favicon.ico
+INFO 2025-06-03 10:52:24,593 basehttp 25 140659558176448 "POST /admin/services/service/ HTTP/1.1" 200 8995
+INFO 2025-06-03 10:52:24,655 basehttp 25 140659558176448 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-06-03 10:52:25,862 basehttp 25 140659558176448 "POST /admin/services/service/ HTTP/1.1" 302 0
+INFO 2025-06-03 10:52:25,886 basehttp 25 140659558176448 "GET /admin/services/service/ HTTP/1.1" 200 8473
+INFO 2025-06-03 10:52:25,948 basehttp 25 140659558176448 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 10:52:25,997 basehttp 25 140659558176448 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+WARNING 2025-06-03 10:52:26,046 log 25 140659558176448 Not Found: /favicon.ico
+WARNING 2025-06-03 10:52:26,047 basehttp 25 140659558176448 "GET /favicon.ico HTTP/1.1" 404 2583
+INFO 2025-06-03 10:55:18,050 autoreload 25 140530378197888 Watching for file changes with StatReloader
+INFO 2025-06-03 10:55:34,970 basehttp 25 140530298123968 "GET /admin/services/service/ HTTP/1.1" 200 11193
+INFO 2025-06-03 10:55:35,012 basehttp 25 140530298123968 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 10:55:35,025 basehttp 25 140530298123968 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+WARNING 2025-06-03 10:55:35,159 log 25 140530298123968 Not Found: /favicon.ico
+WARNING 2025-06-03 10:55:35,160 basehttp 25 140530298123968 "GET /favicon.ico HTTP/1.1" 404 2583
+INFO 2025-06-03 10:55:41,134 basehttp 25 140530298123968 "GET /api/services/ HTTP/1.1" 200 2825
+INFO 2025-06-03 10:56:27,825 basehttp 25 140530287634112 "OPTIONS /api/accounts/register/ HTTP/1.1" 200 0
+INFO 2025-06-03 10:56:28,096 basehttp 25 140530287634112 "POST /api/accounts/register/ HTTP/1.1" 201 231
+INFO 2025-06-03 10:56:30,569 basehttp 25 140530287634112 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2025-06-03 10:56:30,818 basehttp 25 140530287634112 "POST /api/accounts/login/ HTTP/1.1" 200 142
+INFO 2025-06-03 10:56:37,476 basehttp 25 140530287634112 "OPTIONS /api/accounts/logout/ HTTP/1.1" 200 0
+INFO 2025-06-03 10:56:37,494 basehttp 25 140530287634112 "POST /api/accounts/logout/ HTTP/1.1" 200 37
+INFO 2025-06-03 10:56:46,844 basehttp 25 140530287634112 "POST /api/accounts/login/ HTTP/1.1" 200 142
+INFO 2025-06-03 10:56:48,794 basehttp 25 140530287634112 "OPTIONS /api/accounts/profile/ HTTP/1.1" 200 0
+INFO 2025-06-03 10:56:48,821 basehttp 25 140530287634112 "GET /api/accounts/profile/ HTTP/1.1" 200 130
+INFO 2025-06-03 10:56:56,766 basehttp 25 140530287634112 "POST /api/accounts/logout/ HTTP/1.1" 200 37
+INFO 2025-06-03 10:57:16,833 basehttp 25 140530276091584 "POST /admin/logout/ HTTP/1.1" 200 3576
+INFO 2025-06-03 10:57:18,950 basehttp 25 140530276091584 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-03 10:57:18,982 basehttp 25 140530276091584 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-06-03 10:57:25,029 basehttp 25 140530276091584 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 10:57:45,932 basehttp 25 140530276091584 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 11:06:06,259 basehttp 25 140530287634112 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 11:06:19,986 basehttp 25 140530287634112 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 11:06:27,668 basehttp 25 140530276091584 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-06-03 11:06:27,794 basehttp 25 140530298123968 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+WARNING 2025-06-03 11:06:27,858 log 25 140530298123968 Not Found: /favicon.ico
+WARNING 2025-06-03 11:06:27,859 basehttp 25 140530298123968 "GET /favicon.ico HTTP/1.1" 404 2585
+INFO 2025-06-03 11:06:30,932 basehttp 25 140530298123968 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 11:06:52,289 basehttp 25 140530298123968 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2025-06-03 11:29:34,342 autoreload 31 140646133525376 Watching for file changes with StatReloader
+INFO 2025-06-03 11:29:39,758 basehttp 31 140646052525760 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-03 11:29:39,820 basehttp 31 140646052525760 "GET /admin/ HTTP/1.1" 200 6909
+INFO 2025-06-03 11:29:39,923 basehttp 31 140646052525760 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-06-03 11:29:39,955 basehttp 31 140646052525760 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-06-03 11:29:39,984 basehttp 31 140646044133056 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-06-03 11:29:43,933 basehttp 31 140646052525760 "POST /admin/logout/ HTTP/1.1" 200 3576
+WARNING 2025-06-03 11:29:49,767 log 31 140646035740352 Not Found: /
+WARNING 2025-06-03 11:29:49,768 basehttp 31 140646035740352 "GET / HTTP/1.1" 404 2532
+INFO 2025-06-03 11:29:56,255 basehttp 31 140646035740352 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-03 11:29:56,271 basehttp 31 140646035740352 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-06-03 11:30:07,565 basehttp 31 140646035740352 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-03 11:30:07,595 basehttp 31 140646035740352 "GET /admin/ HTTP/1.1" 200 6909
+INFO 2025-06-03 11:30:07,668 basehttp 31 140646035740352 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-06-03 11:30:26,533 basehttp 31 140646035740352 "GET /admin/services/service/ HTTP/1.1" 200 11194
+INFO 2025-06-03 11:30:26,653 basehttp 31 140646035740352 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-03 11:48:18,363 autoreload 30 140287536122752 Watching for file changes with StatReloader
+INFO 2025-06-03 11:48:51,717 basehttp 30 140287385007808 "GET /api/services/ HTTP/1.1" 200 2825
+INFO 2025-06-03 11:48:57,985 basehttp 30 140287376615104 "GET /admin/services/service/ HTTP/1.1" 200 11194
+INFO 2025-06-03 11:48:58,076 basehttp 30 140287376615104 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-06-03 11:48:58,168 log 30 140287376615104 Not Found: /favicon.ico

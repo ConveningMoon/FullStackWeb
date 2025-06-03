@@ -13,11 +13,39 @@ ITMANO is a full-stack web application project consisting of a Django backend an
 To clone the repository, run the following command:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ConveningMoon/FullStackWeb.git
 cd ITMANO
 ```
 
-Replace `<repository-url>` with the actual URL of the repository.
+## Environment Variables Setup
+
+This project uses environment variables for configuration. Template files are provided for both backend and frontend:
+
+- Backend: `backend/portfolio_project/.env.template`
+
+Copy these templates to create your own `.env` files:
+
+```bash
+cd FullStackWeb
+cp backend/portfolio_project/.env.template backend/portfolio_project/.env
+```
+
+Then, fill in the required values in these `.env` files. For example, in the backend `.env` file, you should set:
+
+- `DEBUG`: Set to `1` for development or `0` for production.
+- `SECRET_KEY`: Your Django secret key.
+- Database connection details: `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`.
+- Django superuser credentials: `DJANGO_SUPERUSER_USERNAME`, `DJANGO_SUPERUSER_EMAIL`, `DJANGO_SUPERUSER_PASSWORD`.
+
+## Auto-created Superuser Credentials
+
+On startup, the backend automatically creates a Django superuser with the following default credentials (configurable via `.env`):
+
+- Username: `admin`
+- Email: `admin@example.com`
+- Password: `password123`
+
+You can use these credentials to log in to the Django admin interface at `http://localhost:8000/admin`.
 
 ## Starting the Project
 
@@ -41,7 +69,3 @@ Please refer to the project-specific documentation or configuration files if the
 - `backend/` - Django backend application
 - `frontend/` - Next.js frontend application
 - `docker-compose.yml` - Docker Compose configuration to run backend and frontend
-
-## Additional Information
-
-For any questions or issues, please refer to the project documentation or contact the project maintainers.

@@ -98,6 +98,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon, fea
           width={600}
           height={400}
           className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+          unoptimized={true}
         />
       </div>
 
@@ -221,8 +222,9 @@ const ServicesPage: React.FC = () => {
       description: "We carefully deploy your solution and provide training to ensure a smooth transition."
     }
   ];
+
   const API_URL = process.env.NEXT_PUBLIC_API_URL;
-  console.log("THis is the api_URL", API_URL);
+  console.log("This is the api_URL", API_URL);
 
   useEffect(() => {
     // Fetch services from the Django API
@@ -273,7 +275,7 @@ const ServicesPage: React.FC = () => {
         "Content management systems",
         "E-commerce integration"
       ],
-      image: "/images/services/web-development.jpg"
+      image: "/images/services/default-service.jpg"
     },
     {
       id: 2,
@@ -286,7 +288,7 @@ const ServicesPage: React.FC = () => {
         "App store optimization",
         "Ongoing maintenance and updates"
       ],
-      image: "/images/services/app-development.jpg"
+      image: "/images/services/default-service.jpg"
     },
     {
       id: 3,
@@ -299,7 +301,7 @@ const ServicesPage: React.FC = () => {
         "Authentication and security",
         "Performance optimization"
       ],
-      image: "/images/services/backend-development.jpg"
+      image: "/images/services/default-service.jpg"
     }
   ];
 
@@ -377,7 +379,7 @@ const ServicesPage: React.FC = () => {
                 description={service.description}
                 icon={iconMap[service.title] || <Settings className="w-6 h-6" />}
                 features={service.features || []}
-                image={service.image || `/images/services/default-service-${index + 1}.jpg`}
+                image={`${service.image}` || `/images/services/default-service.jpg`}
                 index={index}
               />
             ))}
@@ -429,11 +431,6 @@ const ServicesPage: React.FC = () => {
                   <div className="inline-flex rounded-md shadow">
                     <Link href="/contact" className="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md hover:bg-blue-50">
                       Contact Us
-                    </Link>
-                  </div>
-                  <div className="ml-3 inline-flex">
-                    <Link href="/portfolio" className="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-blue-800 bg-opacity-30 border border-transparent rounded-md hover:bg-blue-800 hover:bg-opacity-40">
-                      View Our Work
                     </Link>
                   </div>
                 </div>

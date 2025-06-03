@@ -1,0 +1,82 @@
+[
+    {
+        "model": "services.service",
+        "pk": 1,
+        "fields": {
+            "title": "Web Development",
+            "slug": "web-development",
+            "description": "We specialize in building responsive, secure, and high-performance websites tailored to represent your brand and achieve your business goals. From elegant designs to optimized functionality, we bring innovative web solutions to life.",
+            "short_description": "Custom responsive websites to enhance your brand.",
+            "image": "images/services/web-development.jpg",
+            "created_at": "2022-01-01T00:00:00Z",
+            "updated_at": "2022-01-01T00:00:00Z",
+            "features": [
+                "Responsive design for all devices",
+                "Search Engine Optimization (SEO)",
+                "Fast loading speeds and performance optimization",
+                "E-commerce and CMS platform integration",
+                "User-friendly frontend interfaces"
+            ]
+        }
+    },
+    {
+        "model": "services.service",
+        "pk": 2,
+        "fields": {
+            "title": "App Development",
+            "slug": "app-development",
+            "description": "Our team creates versatile mobile and web applications with seamless user experiences. Whether it's native iOS/Android apps or cross-platform solutions, we deliver tailored software applications that empower your business.",
+            "short_description": "Custom mobile and web apps for your business.",
+            "image": "images/services/app-development.jpg",
+            "created_at": "2022-01-01T00:00:00Z",
+            "updated_at": "2022-01-01T00:00:00Z",
+            "features": [
+                "Native iOS/Android app development",
+                "Cross-platform app solutions",
+                "Robust backend infrastructure",
+                "Modern UX and design principles",
+                "Scalable, secure architecture"
+            ]
+        }
+    },
+    {
+        "model": "services.service",
+        "pk": 3,
+        "fields": {
+            "title": "Social Media Management",
+            "slug": "social-media-management",
+            "description": "Enhance your online presence with our social media strategies. We create, schedule, and manage content to connect your business with its audience, delivering measurable growth and engagement.",
+            "short_description": "Boost your online presence and engagement.",
+            "image": "images/services/social-media-management.jpg",
+            "created_at": "2022-01-01T00:00:00Z",
+            "updated_at": "2022-01-01T00:00:00Z",
+            "features": [
+                "Creative content creation and curation",
+                "Data-driven social media strategies",
+                "Audience engagement and growth campaigns",
+                "Analytics and performance reporting",
+                "Paid advertising on social platforms"
+            ]
+        }
+    },
+    {
+        "model": "services.service",
+        "pk": 4,
+        "fields": {
+            "title": "Automations",
+            "slug": "automations",
+            "description": "Streamline your workflows and increase productivity with our end-to-end automation services. From business process optimization to custom script development, we help eliminate inefficiencies and enhance scalability.",
+            "short_description": "Optimize workflows through intelligent automation.",
+            "image": "images/services/automations.jpg",
+            "created_at": "2022-01-01T00:00:00Z",
+            "updated_at": "2022-01-01T00:00:00Z",
+            "features": [
+                "Business process automation",
+                "Integration with third-party systems",
+                "Custom script and tools development",
+                "Automated analytics and data processing",
+                "AI-powered task automation"
+            ]
+        }
+    }
+]

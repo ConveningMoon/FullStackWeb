@@ -1,26 +1,12 @@
-# services/views.py
 import logging
 from django.core.cache import cache
 from rest_framework import viewsets, permissions
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from .models import Service, ServiceCategory
-from .serializers import ServiceSerializer, ServiceDetailSerializer, ServiceCategorySerializer
+from .models import Service
+from .serializers import ServiceSerializer, ServiceDetailSerializer
 
 logger = logging.getLogger('portfolio')
-
-class ServiceCategoryViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = ServiceCategory.objects.all()
-    serializer_class = ServiceCategorySerializer
-    lookup_field = 'slug'
-    
-    def get_queryset(self):
-        queryset = cache.get('service_categories')
-        if queryset is None:
-            queryset = super().get_queryset()
-            cache.set('service_categories', queryset, 3600)  # Cache for 1 hour
-        return queryset
-
 
 class ServiceViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Service.objects.all()
